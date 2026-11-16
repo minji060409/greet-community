@@ -13,3 +13,5 @@ python -m pip install .
 See CONTRIBUTING.md for details.
 
 ## Use
+python -c "from greet_community import greet; print(greet('Hee'))"
+Hello, Hee!
