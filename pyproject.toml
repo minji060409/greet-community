@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "greet-community"
+version = "0.1.0"
+description = "Greeting package created with cookiecutter"
+authors = [{ name = "minji060409" }]
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+where = ["src"]
